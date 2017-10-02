@@ -18,7 +18,7 @@ ul>nav {
   background-color: #eee8d5;
 }
 
-h2 {
+#contents, #favs, #facts, #types {
   color: #93a1a1;
 }
 
@@ -26,6 +26,33 @@ main div p {
   background-color: #b58900;
 }
 
-main div p+strong {
+main div p + strong {
   color: #fff;
+}
+
+a:not(.no-highlight) {
+  background-color: #719e07;
+}
+[rel="external"] {
+  background-color: #2694d8;
+}
+
+ol li: first-child {
+  color: #719e47;
+}
+
+ol li: last-child {
+  color: #2aa198;
+}
+
+.types li:nth-child(odd) {
+  background-color: #657ba3;
+}
+
+.types li:nth-child(even) {
+  background-color: #58be75;
+}
+
+.types li:nth-child(3) {
+  background-color: #d04b16;
 }
