@@ -6,7 +6,7 @@ header, footer {
   font-size: 1.5rem;
 }
 
-ul>nav {
+ul > nav {
   font-family: sans-serif;
 }
 
@@ -22,7 +22,7 @@ ul>nav {
   color: #93a1a1;
 }
 
-main div p {
+.wrapper > .dfn {
   background-color: #b58900;
 }
 
@@ -33,15 +33,16 @@ main div p + strong {
 a:not(.no-highlight) {
   background-color: #719e07;
 }
+
 [rel="external"] {
   background-color: #2694d8;
 }
 
-ol li: first-child {
+ol li:first-child {
   color: #719e47;
 }
 
-ol li: last-child {
+ol li:last-child {
   color: #2aa198;
 }
 
@@ -50,9 +51,9 @@ ol li: last-child {
 }
 
 .types li:nth-child(even) {
-  background-color: #58be75;
+  background-color: #586e75;
 }
 
-.types li:nth-child(3) {
+.types li:nth-child(3n) {
   background-color: #d04b16;
 }
